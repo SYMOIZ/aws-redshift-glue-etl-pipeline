@@ -3,20 +3,21 @@
 *.ppk
 *.key
 .env
-credentials.json
 *_credentials.json
 
-# Python
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .Python
+
+# Build / packaging
 *.egg-info/
 dist/
 build/
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # Virtual environments
@@ -24,16 +25,6 @@ build/
 venv/
 env/
 ENV/
-
-# Generated files
-docs/
-*.drawio
-output/
-
-# Parquet / data files
-*.parquet
-*.csv
-data/
 
 # OS artifacts
 .DS_Store
