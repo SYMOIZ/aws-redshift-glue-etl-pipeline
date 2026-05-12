@@ -1,0 +1,50 @@
+# AWS Credentials — NEVER commit
+*.pem
+*.ppk
+*.key
+.env
+credentials.json
+*_credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated files
+docs/
+*.drawio
+output/
+
+# Parquet / data files
+*.parquet
+*.csv
+data/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
